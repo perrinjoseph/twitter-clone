@@ -1,0 +1,35 @@
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+//variables
+@import "./variables";
+//Css reset
+@import "./reset";
+@import "../app";
+@import "../Components/Layout/Sidebar/sidebar";
+@import "../Components/Layout/News/news.scss";
+@import "../Components/Layout/Feed/feed";
+@import "../Components/Shared/CreatePost/createPost";
+@import "../Components/Pages/Home/home";
+@import "../Components/Shared/UniversalCard/universalCard";
+
+body {
+  overflow-y: scroll;
+  overscroll-behavior-y: none;
+  background-color: $background-color;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.feed-header {
+  padding: 20px 10px;
+
+}

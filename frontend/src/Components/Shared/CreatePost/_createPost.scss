@@ -1,0 +1,30 @@
+.createPost {
+  display: flex;
+  color: black;
+  background-color: $card-bg-color;
+  padding: $create-post-padding;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: $section-border;
+  &__input {
+    margin-left: 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+    border: none;
+    -ms-overflow-style: none;
+  }
+  &__post-options {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__icon {
+    fill: red;
+  }
+}

@@ -1,0 +1,38 @@
+.uniCard {
+  width: 100%;
+  background-color: $card-bg-color;
+  margin-bottom: 20px;
+  padding: $card-padding;
+  border-radius: $card-border-radius;
+
+  border-width: thin;
+}
+
+.universal-profile {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.universal-body {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.profile-flex {
+  display: flex;
+}
+
+.universal-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 15px;
+  display: block;
+  margin: auto;
+  border-radius: $card-border-radius;
+}

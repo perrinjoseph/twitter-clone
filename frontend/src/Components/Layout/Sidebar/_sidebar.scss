@@ -1,0 +1,69 @@
+.links {
+  text-decoration: none;
+}
+.sidebar {
+  position: sticky;
+  top: 0;
+
+  height: 100vh;
+  &__avatar {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    &__displayName {
+      color: $nav-font-color;
+      font-weight: bolder;
+    }
+    &__username {
+      color: $nav-font-color;
+      font-weight: lighter;
+    }
+  }
+}
+.navbar__item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  justify-content: center;
+
+  &__icon {
+    color: $nav-font-color;
+  }
+
+  &__title {
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100%;
+    color: $nav-font-color;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+  }
+  &:hover {
+    background-color: $nav-hover-color;
+  }
+}
+.hideTitle {
+  display: none;
+  margin-left: -10px;
+}
+
+.remove-hover {
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.btn-tweet {
+  background-color: $nav-hover-title-color;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: bolder;
+  margin-top: 30px;
+}
