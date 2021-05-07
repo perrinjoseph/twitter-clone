@@ -1,9 +1,10 @@
 import React from "react";
+import FeedHeader from "../../Shared/FeedHeader/FeedHeader";
 
 function Explore() {
   return (
     <div className="explore">
-      <h1>Explore</h1>
+      <FeedHeader header={"Explore"} />
     </div>
   );
 }
