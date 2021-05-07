@@ -4,8 +4,10 @@
 .sidebar {
   position: sticky;
   top: 0;
-  flex: 0.12;
+  flex: 0.2;
   height: 100vh;
+  padding: 0px 30px;
+
   &__avatar {
     position: absolute;
     bottom: 0;

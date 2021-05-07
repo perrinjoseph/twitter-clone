@@ -1,6 +1,26 @@
 .news {
   color: $nav-font-color;
-  min-width: 300px;
-  flex: 0.12;
 
+  flex: 0.3;
+  padding: 15px 30px;
+  position: sticky;
+
+  top: 0;
+  height: 100vh;
+  &__top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: $card-bg-color;
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+  &__search {
+    width: 100%;
+
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
 }
